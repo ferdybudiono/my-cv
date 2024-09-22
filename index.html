@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferdy Budiono</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <style>
+        .gambarHeader {
+            background-color: aliceblue;
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .text-container {
+            padding: 20px;
+            border-radius: 10px;
+            color: black;
+        }
+        body {
+            padding-top: 56px;
+            scroll-padding-top: 70px;
+        }
+        section {
+            padding-top: 70px; 
+            margin-top: -70px;
+        }
+        @media (max-width: 768px) {
+            .gambarHeader {
+                min-height: 50vh;
+            }
+            .display-4 {
+                font-size: 2rem;
+            }
+            .display-3 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ferdy Budiono</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">Tentang Saya</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiences">Pengalaman</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Keterampilan & Proyek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="gambarHeader">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="text-container">
+                        <h3 class="display-4"><span id="typed-text"></span></h3>
+                        <p>I'm an <b>IT Technician & Web Developer</b> enthusiast!</p>
+                        <a class="btn btn-secondary" href="https://www.instagram.com/ferdyddb/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a class="btn btn-secondary" href="https://github.com/ferdybudiono" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a class="btn btn-secondary" href="https://www.youtube.com/@ferdyddb" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="aboutMe">
+        <div class="container my-5 py-3">
+            <div class="row align-items-center">
+                <div class="col-md-5 mb-3 mb-md-0">
+                    <img src="images/ferdy.jpeg" alt="ferdy" class="img-fluid rounded" style="object-fit: cover; width: 100%; max-height: 400px;">
+                </div>
+                <div class="col-md-7">
+                    <h3 class="display-3">About</h3>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>Name <b>Ferdy Dharmawan Dwi Budiono</b></p>
+                            <p>Age <b>19</b></p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p>Email <b>ferdydharmawan2005@gmail.com</b></p>
+                            <p>Phone <b>+628999075041</b></p>
+                        </div>
+                    </div>
+                    <p>Saat ini, saya bekerja sebagai Staff IT di SMK Senopati Sedati, di mana saya bertanggung jawab untuk memelihara perangkat komputer sekolah dan mengelola jaringan internet. Sebelumnya, saya magang sebagai Teknisi Servis di CV Grez Komputer 2, di mana saya berfokus pada perbaikan perangkat seperti komputer, laptop, dan printer. Saya lulusan SMK Negeri 1 Surabaya dengan jurusan Teknik Komputer dan Jaringan, dan saat ini saya sedang menempuh pendidikan di Universitas Narotama Surabaya dengan program studi Sistem Informasi.</p>
+                    <a class="btn btn-primary" href="#">
+                        Check my Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiences">
+        <div class="container-fluid py-3" style="background-color: aliceblue;">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3 class="display-3 my-3">Experiences</h3>
+                </div>
+
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <a href="images/ecs.jpg" data-fancybox="gallery" data-caption="ECS Alibaba Certificate">
+                                <img src="images/ecs.jpg" alt="ecs-cert">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="images/responsive.jpg" data-fancybox="gallery" data-caption="Responsive Web Certificate">
+                                <img src="images/responsive.jpg" alt="responsive-cert">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="images/php.png" data-fancybox="gallery" data-caption="PHP Certificate">
+                                <img src="images/php.png" alt="php-cert">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="images/bootstrap.png" data-fancybox="gallery" data-caption="Bootstrap Certificate">
+                                <img src="images/bootstrap.png" alt="bootstrap-cert">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="images/js.png" data-fancybox="gallery" data-caption="JavaScript Certificate">
+                                <img src="images/js.png" alt="js-cert">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="images/jquery.png" data-fancybox="gallery" data-caption="jQuery Certificate">
+                                <img src="images/jquery.png" alt="jquery-cert">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="images/mysql.png" data-fancybox="gallery" data-caption="MySQL Certificate">
+                                <img src="images/mysql.png" alt="mysql-cert">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="images/python.png" data-fancybox="gallery" data-caption="Python Certificate">
+                                <img src="images/python.png" alt="python-cert">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="images/ml.png" data-fancybox="gallery" data-caption="Machine Learning Certificate">
+                                <img src="images/ml.png" alt="machine learning-cert">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="images/vd.png" data-fancybox="gallery" data-caption="Data Visualizing Certificate">
+                                <img src="images/vd.png" alt="data visualizing-cert">
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skill">
+        <div class="container my-4">
+            <div class="row text-center mb-4">
+                <h3 class="display-3">Skills & Projects</h3>
+            </div>
+            <div class="row">
+                <!-- Proyek 1 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="images/ydh-project.JPG" class="card-img-top" alt="Proyek 1" style="object-fit: cover; height: 200px;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Yandihan</h5>
+                            <p class="card-text flex-grow-1">Landing page penyedia layanan servis IT yang berfokus pada kebutuhan korporasi. Menawarkan solusi untuk meningkatkan efisiensi serta mengoptimalkan infrastruktur.</p>
+                            <a href="https://yandihan.000webhostapp.com" class="btn btn-primary mt-auto">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyek 2 -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="images/ml-project.JPG" class="card-img-top" alt="Proyek 2" style="object-fit: cover; height: 200px;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Model Machine Learning</h5>
+                            <p class="card-text flex-grow-1">Mengenali isyarat tangan dalam permainan gunting batu kertas. Dengan akurasi tinggi, ia dapat mendeteksi dan mengklasifikasikan gerakan tangan.</p>
+                            <a href="https://github.com/ferdybudiono/rockpaperscissors_ML" class="btn btn-primary mt-auto">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="container-fluid py-4" style="background-color: aliceblue;">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h3 class="display-3">Contact</h3>
+                </div>
+                        <div class="col-12">
+                            <a class="btn btn-success" href="https://wa.me/628999075041"><i class="bi bi-whatsapp"></i> +628999075041</a>
+                            <a class="btn btn-danger" href="https://www.instagram.com/ferdyddb/"><i class="bi bi-instagram"></i> @ferdyddb</a>
+                            <a class="btn btn-primary" href="mailto:ferdydharmawan2005@gmail.com"><i class="bi bi-envelope"></i> ferdydharmawan2005@gmail.com</a>
+                        </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                center: true,
+                items: 2,
+                loop: false,
+                margin: 10,
+                nav: true,
+                dots: true,
+                autoplay: false,
+                navText: ["<i class='bi bi-chevron-left'></i>","<i class='bi bi-chevron-right'></i>"],
+                responsive:{
+                    0:{
+                        items: 1
+                    },
+                    576:{
+                        items: 2
+                    },
+                    768:{
+                        items: 3
+                    },
+                    992:{
+                        items: 4
+                    },
+                    1200:{
+                        items: 5
+                    }
+                }
+            });
+
+            Fancybox.bind("[data-fancybox]", {
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var typed = new Typed('#typed-text', {
+                strings: ['Halo, Kenalan Yuk!' , 'Ferdy Dharmawan Dwi Budiono'],
+                typeSpeed: 90,
+                backSpeed: 70,
+                loop: false
+            });
+        });
+    </script>
+</body>
+</html>
